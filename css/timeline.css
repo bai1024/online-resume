@@ -120,6 +120,7 @@ time {
   transform: none;
   visibility: visible;
   opacity: 1;
+  border-radius: 10px;
 }
 
 

@@ -6,6 +6,14 @@ body {
   width: 100%;
 }
 
+.header > .post_header {
+  height: 75vh;
+  min-height: 180px;
+  background: #222 no-repeat center center;
+  background-size: cover;
+  }
+
+
 .about > h1 {
   text-align: center;
   font-size: 30px;
