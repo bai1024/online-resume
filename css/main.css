@@ -13,6 +13,19 @@ body {
   background-size: cover;
   }
 
+.header > .post_header > a {
+  padding: 0 15px;
+  border: solid 2px #eee;
+  color: #fff;
+  text-decoration: none;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 30px 0 0 30px;
+  border-radius: 3px;
+  transition: all .5s ease;
+  float: left;
+  line-height: 40px;
+}
 
 .about > h1 {
   text-align: center;
