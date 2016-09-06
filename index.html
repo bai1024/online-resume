@@ -5,159 +5,174 @@
   <title>About me</title>
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/jquery.fullPage.css">
   <script src="scripts/jquery-1.7.1.min.js"></script>
+  <script src="scripts/jquery.fullPage.js"></script>
   <script src="scripts/jquery-circle-progress/dist/circle-progress.js"></script>
 </head>
+
 <body>
-  <div class="header">
-    <header class="post_header" style="background-image:url(https://hd.unsplash.com/photo-1462524500090-89443873e2b4);">
-    <a href="https://dingdingbai.github.io/">
-      HOME
-    </a>
-    </header>
-  </div>
-
-  <div class="about">      
-    <h1>ABOUT ME</h1>
-    <div class="message"> 
-      <div class="mine">  
-        <img src="images/avatar.jpg" alt="头像">
-        <div>
-          <p id="titile">FULL NAME</p>
-          <p id="content">白艳</p>
-          <p id="titile">E-MAIL</p>
-          <p id="content"></a>dingdingbai0424@gmail.com</p>
-          <p id="titile">WEBFOLIO</p>
-          <p id="content"><a href="https://dingdingbai.github.io">dingdingbai.github.io</a></p>
-        </div>
-      </div> 
-      <p>
-        一名英语专业但是却从事编程的女程序媛。致力于前端技术的学习～
-      </p>
-
-      <h1>MY INTERESTS</h1>
-      <div class="icon">
-        <img src="images/computer.svg" alt="computer">
-        <img src="images/pen.svg" alt="pen">
-        <img src="images/dress.svg" alt="dress">
-        <img src="images/dog.svg" alt="dog">
-        <img src="images/swimming.svg" alt="swimming">
+  <div class="page-container">
+    <div class="section" id="section1">
+      <div class="header">
+      <header class="post_header" style="background-image:url(https://hd.unsplash.com/photo-1462524500090-89443873e2b4);">
+        <a href="https://dingdingbai.github.io/">HOME</a>
+      </header>
       </div>
     </div>
-  </div>
 
-  <div class="edu-exp">      
-    <h1>EDUCATION - EXPERIENCE</h1>  
-    <section class="timeline">
-      <ul>
-        <li>
-          <div>
-            <time>2012</time> 
-            就读于安徽工程大学英语专业
+    <div class="section" id="section2">
+      <div class="about">      
+        <h1>ABOUT ME</h1>
+        <div class="message"> 
+          <div class="mine">  
+            <img src="images/avatar.jpg" alt="头像">
+            <div>
+              <p id="titile">FULL NAME</p>
+              <p id="content">白艳</p>
+              <p id="titile">E-MAIL</p>
+              <p id="content"></a>dingdingbai0424@gmail.com</p>
+              <p id="titile">WEBFOLIO</p>
+              <p id="content"><a href="https://dingdingbai.github.io">dingdingbai.github.io</a></p>
+            </div>
+          </div> 
+          <p>
+            一名英语专业但是却从事编程的女程序媛。致力于前端技术的学习～
+          </p>
+
+          <h1>MY INTERESTS</h1>
+          <div class="icon">
+            <img src="images/computer.svg" alt="computer">
+            <img src="images/pen.svg" alt="pen">
+            <img src="images/dress.svg" alt="dress">
+            <img src="images/dog.svg" alt="dog">
+            <img src="images/swimming.svg" alt="swimming">
           </div>
-        </li>
-        <li>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="section3">
+      <div class="edu-exp">      
+        <h1>EDUCATION - EXPERIENCE</h1>  
+        <section class="timeline">
+          <ul>
+            <li>
+              <div>
+                <time>2012</time> 
+                就读于安徽工程大学英语专业
+              </div>
+            </li>
+            <li>
+              <div>
+                <time>1937</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <div class="section" id="section4"> 
+      <div class="skills">     
+        <h1>SKILLS</h1>      
+        <div class="percentage">
           <div>
-            <time>1937</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+            <div id="circle1">
+              <strong class="strong">88%</strong>
+            </div>
+            <h1>HTML5</h1>
+            <p>html网页编写</p>
           </div>
-        </li>
-      </ul>
-    </section>
-  </div>
 
-  <div class="skills">     
-    <h1>SKILLS</h1>      
-    <div class="percentage">
-      <div>
-        <div id="circle1">
-          <strong class="strong">88%</strong>
-        </div>
-        <h1>HTML5</h1>
-        <p>html网页编写</p>
-      </div>
+          <div>
+            <div id="circle2">
+              <strong class="strong">80%</strong>
+            </div>
+            <h1>CSS</h1>
+            <p>设计网页样式</p>
+          </div>
 
-      <div>
-        <div id="circle2">
-          <strong class="strong">80%</strong>
+          <div>
+            <div id="circle3">
+              <strong class="strong">70%</strong>
+            </div>
+            <h1>Javascript</h1>
+            <p></p>
+          </div>
         </div>
-        <h1>CSS</h1>
-        <p>设计网页样式</p>
-      </div>
 
-      <div>
-        <div id="circle3">
-          <strong class="strong">70%</strong>
+        <div class="percentage">
+          <div>
+            <div id="circle4">
+              <strong class="strong">90%</strong>
+            </div>
+            <h1>titile</h1>
+            <p>description</p>
+          </div>
+
+          <div>
+            <div id="circle5">
+              <strong class="strong">90%</strong>
+            </div>
+            <h1>titile</h1>
+            <p>description</p>
+          </div>
+
+          <div>
+            <div id="circle6">
+              <strong class="strong">90%</strong>
+            </div>
+            <h1>titile</h1>
+            <p>description</p>
+          </div>
         </div>
-        <h1>Javascript</h1>
-        <p></p>
       </div>
     </div>
 
-    <div class="percentage">
-      <div>
-        <div id="circle4">
-          <strong class="strong">90%</strong>
+    <div class="section" id="section5">
+      <div class="abilities">
+        <h1>ABLITIES</h1>
+        <div class="abli-container">
+          <div class="abli-des">
+            <h1>Title</h1>
+            <p>description</p>
+          </div>
+          <div class="abli-des">
+            <h1>Title</h1>
+            <p>description</p>
+          </div>
+          <div class="abli-des">
+            <h1>Title</h1>
+            <p>description</p>
+          </div>
         </div>
-        <h1>titile</h1>
-        <p>description</p>
+        <div class="abli-container">
+          <div class="abli-des">
+            <h1>Title</h1>
+            <p>description</p>
+          </div>
+          <div class="abli-des">
+            <h1>Title</h1>
+            <p>description</p>
+          </div>
+          <div class="abli-des">
+            <h1>Title</h1>
+            <p>description</p>
+          </div>
+        </div>
       </div>
+    </div>
 
-      <div>
-        <div id="circle5">
-          <strong class="strong">90%</strong>
-        </div>
-        <h1>titile</h1>
-        <p>description</p>
-      </div>
-
-      <div>
-        <div id="circle6">
-          <strong class="strong">90%</strong>
-        </div>
-        <h1>titile</h1>
-        <p>description</p>
+    <div class="section" id="section6">
+      <div class="portfoil">
+        <h1>PORTFOIL</h1>
       </div>
     </div>
   </div>
-
-  <div class="abilities">
-    <h1>ABLITIES</h1>
-    <div class="abli-container">
-      <div class="abli-des">
-        <h1>Title</h1>
-        <p>description</p>
-      </div>
-      <div class="abli-des">
-        <h1>Title</h1>
-        <p>description</p>
-      </div>
-      <div class="abli-des">
-        <h1>Title</h1>
-        <p>description</p>
-      </div>
-    </div>
-    <div class="abli-container">
-      <div class="abli-des">
-        <h1>Title</h1>
-        <p>description</p>
-      </div>
-      <div class="abli-des">
-        <h1>Title</h1>
-        <p>description</p>
-      </div>
-      <div class="abli-des">
-        <h1>Title</h1>
-        <p>description</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="portfoil">
-    <h1>PORTFOIL</h1>
-  </div>
-
 
   <script src="scripts/circle-progress.js"></script>
   <script src="scripts/timeline.js"></script>
-</body>
+  <script src="scripts/fullpage.js"></script>
+  </body>
 </html>

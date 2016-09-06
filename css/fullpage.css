@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+  font-family: 'Lobster', cursive;
+}
+
+p {
+  margin: 0;
+}
+
+.section {
+  background-size: cover;
+  background-position: center;
+}
+
+#section1 {
+  background-image: url(https://hd.unsplash.com/photo-1462524500090-89443873e2b4);
+}
+
+#section2 {
+  background-color: #F6FCFB;
+}
+
+#section3 {
+  background-color: #7594C3;
+}
+
+#section4 {
+  background-color: #F6FCFB;
+}
+
+#section5 {
+  background-color: #F397A4;
+}
+
+#section6 {
+  background-color: #807094;
+}
