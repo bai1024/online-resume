@@ -31,7 +31,6 @@ body {
   text-align: center;
   font-size: 30px;
   margin: 0;
-  padding-top: 50px;
   color: #807094;
 }
 
@@ -93,11 +92,9 @@ body {
 
 .edu-exp {
   background-color: #7594C3;
-  padding-bottom: 50px;
 }
 
 .edu-exp > h1 {
-  padding-top: 50px;
   text-align: center;
   color: #F6FCFB;
  }
@@ -105,9 +102,9 @@ body {
 .skills > h1 {
   color: #807094;
   text-align: center;
-  padding-top: 50px;
+/*  padding-top: 50px;
   margin-top: 0px;
- }
+*/ }
 
 .percentage {
   width: 33%;
@@ -149,9 +146,9 @@ body {
 }
 
 .abilities > h1 {
-  padding-top: 50px;
+/*  padding-top: 50px;
   margin-top: 0px;
-  text-align: center;
+*/  text-align: center;
 }
 
 .abli-container {
@@ -168,8 +165,8 @@ body {
 }
 
 .portfoil > h1 {
-  margin-top: 0px;
-  padding-top: 50px;
+/*  margin-top: 0px;
+  padding-top: 50px;*/
   text-align: center;
   color: #F6FCFB;
 }
