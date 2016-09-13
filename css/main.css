@@ -99,7 +99,7 @@ body {
 
 .percentage {
   width: 33%;
-  margin: auto;
+  margin: 0 auto 25px auto;
   display: flex;
   justify-content: space-around;
   text-align: center;
