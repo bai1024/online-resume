@@ -142,12 +142,16 @@ body {
 */  text-align: center;
 }
 
-.abli-container {
+.abili-container {
   display: flex;
   justify-content: space-around;
   width: 80%;
   margin: auto;
   flex-wrap: wrap;
+}
+
+.abili-des {
+  width: 10%;
 }
 
 .portfoil {

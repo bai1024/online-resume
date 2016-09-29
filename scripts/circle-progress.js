@@ -39,7 +39,7 @@
   })
 
     $("#circle4").circleProgress({
-    value:0.9,
+    value:0.88,
     size:100,
     reverse:true,
     startAngle:-Math.PI / 2,
@@ -48,11 +48,11 @@
       color: "#F2798D"
     }
   }).on("circle-animation-progress", function(event, progress){
-    $(this).find("strong").html(parseInt(100 * progress) + "<i>%</i>")
+    $(this).find("strong").html(parseInt(100 * 0.88) + "<i>%</i>")
   })
 
     $("#circle5").circleProgress({
-    value:0.9,
+    value:0.6,
     size:100,
     reverse:true,
     startAngle:-Math.PI / 2,
@@ -61,11 +61,11 @@
       color: "#F2798D"
     }
   }).on("circle-animation-progress", function(event, progress){
-    $(this).find("strong").html(parseInt(100 * 0.8) + "<i>%</i>")
+    $(this).find("strong").html(parseInt(100 * 0.6) + "<i>%</i>")
   })
 
     $("#circle6").circleProgress({
-    value:0.9,
+    value:0.5,
     size:100,
     reverse:true,
     startAngle:-Math.PI / 2,
@@ -74,6 +74,6 @@
       color: "#F2798D"
     }
   }).on("circle-animation-progress", function(event, progress){
-    $(this).find("strong").html(parseInt(100 * progress) + "<i>%</i>")
+    $(this).find("strong").html(parseInt(100 * 0.5) + "<i>%</i>")
   })
 // })
